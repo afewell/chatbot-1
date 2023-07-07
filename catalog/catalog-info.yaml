@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: chatbot-1
+  annotations:
+    "backstage.io/kubernetes-label-selector": "app.kubernetes.io/part-of=chatbot-1"
+spec:
+  type: service
+  lifecycle: experimental
+  owner: default-team
