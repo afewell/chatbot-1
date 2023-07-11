@@ -1,6 +1,6 @@
 # Tanzu Application Platform
 
-## Working on your chatbot-1 project
+## Working on your my-chatbot-1 project
 
 ### Deploying to Kubernetes as a TAP workload with Tanzu CLI
 
@@ -15,9 +15,9 @@ tanzu apps workload apply -f config/workload.yaml
 If you would like to deploy the code from your local working directory you can use the following command:
 
 ```
-tanzu apps workload create chatbot-1 -f config/workload.yaml \
+tanzu apps workload create my-chatbot-1 -f config/workload.yaml \
   --local-path . \
-  --source-image <REPOSITORY-PREFIX>/chatbot-1-source \
+  --source-image <REPOSITORY-PREFIX>/my-chatbot-1-source \
   --type web
 ```
 
@@ -26,7 +26,7 @@ tanzu apps workload create chatbot-1 -f config/workload.yaml \
 Determine the URL to use for accessing the app by running:
 
 ```
-tanzu apps workload get chatbot-1
+tanzu apps workload get my-chatbot-1
 ```
 
 To access the deployed app use the URL shown under "Workload Knative Services".

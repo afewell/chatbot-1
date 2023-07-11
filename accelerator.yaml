@@ -1,10 +1,17 @@
 accelerator:
-  displayName: Simple Accelerator
-  description: Contains just a README
+  displayName: my-chatbot-1
+  description: Accelerator for chatbot type 1
   iconUrl: https://blogs.vmware.com/wp-content/uploads/2022/02/tap.png
   tags:
-    - simple
-    - getting-started
+    - chatbot
+    - llamaindex
+    - langchain
+    - openai
+    - gradio
+    - retrieval augmented generation
+    - vmware
+    - tanzu
+    - tanzu application platform
 # Place this after the 'tags' section from the previous step
   options:
     - name: firstConfigurableParameter
@@ -25,12 +32,12 @@ accelerator:
 # Place this after the `options` section from the previous step
 engine:
   merge:
-    - include: [ "README.md" ]
+    - include: [ "**/*" ]
       chain:
         - type: ReplaceText
           substitutions:
-            - text: "CONFIGURABLE_PARAMETER_1"
-              with: "#firstConfigurableParameter.toLowerCase()"
+            - text: "my-chatbot-1"
+              with: "#artifactId"
         - condition: "#secondConfigurableParameterCheckbox"
           chain:
           - type: ReplaceText
