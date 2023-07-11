@@ -1,5 +1,12 @@
 # Semantic Versioning Changelog
 
+## [1.0.1](https://github.com/afewell/chatbot-1-accelerator/compare/v1.0.0...v1.0.1) (2023-07-11)
+
+
+### Bug Fixes
+
+* Updating references to my-chatbot-1 to resolve [#3](https://github.com/afewell/chatbot-1-accelerator/issues/3) ([3e4be40](https://github.com/afewell/chatbot-1-accelerator/commit/3e4be408c6cd1b64f9e75dd0765a6bb8ca8f8793))
+
 # 1.0.0 (2023-07-07)
 
 
