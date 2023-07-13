@@ -1,6 +1,6 @@
 {
   "branches": "main",
-  "repositoryUrl": "https://github.com/afewell/chatbot-1-accelerator",
+  "repositoryUrl": "https://github.com/afewell/qabot-1-accelerator",
   "debug": "false",
   "plugins": [
     "@semantic-release/commit-analyzer",

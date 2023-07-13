@@ -1,8 +1,9 @@
 accelerator:
-  displayName: my-chatbot-1
-  description: Accelerator for chatbot type 1
+  displayName: my-qabot-1
+  description: Accelerator for qabot type 1
   iconUrl: https://blogs.vmware.com/wp-content/uploads/2022/02/tap.png
   tags:
+    - qabot
     - chatbot
     - llamaindex
     - langchain
@@ -36,7 +37,7 @@ engine:
       chain:
         - type: ReplaceText
           substitutions:
-            - text: "my-chatbot-1"
+            - text: "my-qabot-1"
               with: "#artifactId"
         - condition: "#secondConfigurableParameterCheckbox"
           chain:
