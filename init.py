@@ -19,7 +19,7 @@ def download_and_extract_files(file_url, destination_directory):
     os.remove('archive.tar.gz')
 
 # Define the URL of the tar.gz file and the destination directory
-file_url = 'https://scrapyfarm.blob.core.windows.net/scrapyfarm/tanzubot_storage-0_2.tar.gz'
+file_url = 'My_Vector_Store_Index_Storage_Context'
 destination_directory = '.'
 
 # Download and extract the files

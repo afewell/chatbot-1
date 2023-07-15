@@ -20,12 +20,11 @@ accelerator:
       label: Git Repository for the target project
       description: The Git repository of the project where you will add the generated files
       required: true
-    - name: secondConfigurableParameter
+    - name: vectorStoreIndexStorageContext
       inputType: text
-      label: The text used to replace the second placeholder text in the README.md. Converted to lowercase.
-      defaultValue: Configurable Parameter 2
-      dependsOn:
-        name: secondConfigurableParameterCheckbox
+      label: Saved storage context from index created by llamaindex VectorStoreIndex
+      defaultValue: https://scrapyfarm.blob.core.windows.net/scrapyfarm/tanzubot_storage-0_2.tar.gz
+      required: true
 # Place this after the `options` section from the previous step
 engine:
   merge:
@@ -43,6 +42,10 @@ engine:
           substitutions:
             - text: "https://github.com/afewell/qabot-1-accelerator"
               with: "#gitRepository"
+        - type: ReplaceText
+          substitutions:
+            - text: "My_Vector_Store_Index_Storage_Context"
+              with: "#vectorStoreIndexStorageContext"
         - condition: "#secondConfigurableParameterCheckbox"
           chain:
           - type: ReplaceText
