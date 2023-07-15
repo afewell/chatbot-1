@@ -1,5 +1,12 @@
 # Semantic Versioning Changelog
 
+## [1.0.3](https://github.com/afewell/qabot-1-accelerator/compare/v1.0.2...v1.0.3) (2023-07-15)
+
+
+### Bug Fixes
+
+* parameterized file_url value for vector index storage context to accept user input value to resolve [#6](https://github.com/afewell/qabot-1-accelerator/issues/6) ([ff5d85b](https://github.com/afewell/qabot-1-accelerator/commit/ff5d85b7ac3d2e485a85b0dcdbcb1b950c5b2d46))
+
 ## [1.0.2](https://github.com/afewell/qabot-1-accelerator/compare/v1.0.1...v1.0.2) (2023-07-15)
 
 
