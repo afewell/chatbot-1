@@ -1,5 +1,12 @@
 # Semantic Versioning Changelog
 
+## [1.0.2](https://github.com/afewell/qabot-1-accelerator/compare/v1.0.1...v1.0.2) (2023-07-15)
+
+
+### Bug Fixes
+
+* updating accelerator.yaml to take github repo input and update references in files as needed to resolve [#5](https://github.com/afewell/qabot-1-accelerator/issues/5) ([8e3161f](https://github.com/afewell/qabot-1-accelerator/commit/8e3161f54bf37a068234bd43c20561f58a79110f))
+
 ## [1.0.1](https://github.com/afewell/chatbot-1-accelerator/compare/v1.0.0...v1.0.1) (2023-07-11)
 
 
