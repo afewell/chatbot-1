@@ -15,15 +15,11 @@ accelerator:
     - tanzu application platform
 # Place this after the 'tags' section from the previous step
   options:
-    - name: firstConfigurableParameter
+    - name: gitRepository
       inputType: text
-      label: The text used to replace the first placeholder text in the README.md. Converted to lowercase.
-      defaultValue: Configurable Parameter 1
+      label: Git Repository for the target project
+      description: The Git repository of the project where you will add the generated files
       required: true
-    - name: secondConfigurableParameterCheckbox
-      inputType: checkbox
-      dataType: boolean
-      label: Enable to configure the second configurable parameter, otherwise use the default value.
     - name: secondConfigurableParameter
       inputType: text
       label: The text used to replace the second placeholder text in the README.md. Converted to lowercase.
@@ -39,6 +35,14 @@ engine:
           substitutions:
             - text: "my-qabot-1"
               with: "#artifactId"
+        - type: ReplaceText
+          substitutions:
+            - text: "https://git.example.com/my-repo"
+              with: "#gitRepository"
+        - type: ReplaceText
+          substitutions:
+            - text: "https://github.com/afewell/qabot-1-accelerator"
+              with: "#gitRepository"
         - condition: "#secondConfigurableParameterCheckbox"
           chain:
           - type: ReplaceText
