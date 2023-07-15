@@ -1,5 +1,12 @@
 # Semantic Versioning Changelog
 
+## [1.0.4](https://github.com/afewell/qabot-1-accelerator/compare/v1.0.3...v1.0.4) (2023-07-15)
+
+
+### Bug Fixes
+
+* adding ingest.py file and instructions for how to do ingestion to resolve [#7](https://github.com/afewell/qabot-1-accelerator/issues/7) ([968b6a4](https://github.com/afewell/qabot-1-accelerator/commit/968b6a43be7bb34fc4fbd03e7381fd00c92073dc))
+
 ## [1.0.3](https://github.com/afewell/qabot-1-accelerator/compare/v1.0.2...v1.0.3) (2023-07-15)
 
 
