@@ -2,7 +2,7 @@
 
 ## About QABot-1 Accelerator
 
-QABot-1 accelerator is a template for provisioning custom QA (Question/Answer) Bots. The number 1 in QABot-1 indicates this is one of many different types or configurations of QA Bots in the Project Genaissance collection of bot accelerators.
+QABot-1 accelerator is a template for provisioning custom QA (Question/Answer) Bots. The number "1" in QABot-1 indicates this is one of many different types or configurations of QA Bots in the Project Genaissance collection of bot accelerators.
 
 QABot-1 can load your custom data, and allow you or your target users to have natural language conversations with a bot about your custom dataset. QABot-1 is hard-coded to use the OpenAI API's and currently supports the GPT-3.5-Turbo and GPT-4 Models. 
 
@@ -19,11 +19,11 @@ The bot then returns the response back to the user.
 QABot-1 uses the Llama-index python library to provide bot services. It uses the most basic llama-index use case with default settings as reflected in the web.py file. Llama-index provides a large variety of different methodologies to provide bot services, and additional accelerators in this series will be made to explore different approaches to providing QA services, both using Llama-index and with different OSS solutions. 
 
 Model Orchestration: Lllama-index
-Supported LLMs: GPT-3.5-turbo, GPT-4
-LLM Tuning Parameters:
-  Temperature: 0
-Embeddings Model: text-ada-002
-VectorDB: Llama-index VectorStoreIndex
+- Supported LLMs: GPT-3.5-turbo, GPT-4
+- LLM Tuning Parameters:
+  - Temperature: 0
+- Embeddings Model: text-ada-002
+- VectorDB: Llama-index VectorStoreIndex
 
 ## How to use QABot-1-Accelerator
 The QABot-1 Accelerator is a template that uses the VMware Tanzu Application Platform (TAP) Application Accelerator solution to provide templating services. 
