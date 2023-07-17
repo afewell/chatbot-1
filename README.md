@@ -18,7 +18,7 @@ The bot then returns the response back to the user.
 
 QABot-1 uses the Llama-index python library to provide bot services. It uses the most basic llama-index use case with default settings as reflected in the web.py file. Llama-index provides a large variety of different methodologies to provide bot services, and additional accelerators in this series will be made to explore different approaches to providing QA services, both using Llama-index and with different OSS solutions. 
 
-Model Orchestration: Lllama-index
+- Model Orchestration: Lllama-index
 - Supported LLMs: GPT-3.5-turbo, GPT-4
 - LLM Tuning Parameters:
   - Temperature: 0
