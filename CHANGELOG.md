@@ -1,5 +1,12 @@
 # Semantic Versioning Changelog
 
+## [1.0.6](https://github.com/afewell/qabot-1-accelerator/compare/v1.0.5...v1.0.6) (2023-07-17)
+
+
+### Bug Fixes
+
+* added k8s deployment files to resolve [#10](https://github.com/afewell/qabot-1-accelerator/issues/10) ([50ddb94](https://github.com/afewell/qabot-1-accelerator/commit/50ddb940a086ae046c9175133c521c2f093987d8))
+
 ## [1.0.5](https://github.com/afewell/qabot-1-accelerator/compare/v1.0.4...v1.0.5) (2023-07-16)
 
 
