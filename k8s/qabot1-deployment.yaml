@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: my-qabot-1
-          image: gcr.io/usecasedev/tanzubot1:0.2
+          image: your_container_name:version
           ports:
             - containerPort: 7860
 ---
