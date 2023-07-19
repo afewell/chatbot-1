@@ -46,9 +46,3 @@ engine:
           substitutions:
             - text: "My_Vector_Store_Index_Storage_Context"
               with: "#vectorStoreIndexStorageContext"
-        - condition: "#secondConfigurableParameterCheckbox"
-          chain:
-          - type: ReplaceText
-            substitutions:
-              - text: "CONFIGURABLE_PARAMETER_2"
-                with: "#secondConfigurableParameter.toLowerCase()"
