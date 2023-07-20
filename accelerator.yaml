@@ -9,10 +9,10 @@ accelerator:
     - langchain
     - openai
     - gradio
-    - retrieval augmented generation
+    - "retrieval augmented generation"
     - vmware
     - tanzu
-    - tanzu application platform
+    - "tanzu application platform"
 # Place this after the 'tags' section from the previous step
   options:
     - name: gitRepository
