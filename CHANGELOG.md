@@ -1,5 +1,12 @@
 # Semantic Versioning Changelog
 
+## [1.0.11](https://github.com/afewell/qabot-1-accelerator/compare/v1.0.10...v1.0.11) (2023-07-20)
+
+
+### Bug Fixes
+
+* fix error in accelerator name ([334d2ef](https://github.com/afewell/qabot-1-accelerator/commit/334d2ef5aa18b66feb5246c6d72d26c60adc5785))
+
 ## [1.0.10](https://github.com/afewell/qabot-1-accelerator/compare/v1.0.9...v1.0.10) (2023-07-20)
 
 
