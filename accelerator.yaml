@@ -1,5 +1,5 @@
 accelerator:
-  displayName: my-qabot-1
+  displayName: qabot-1-accelerator
   description: Accelerator for qabot type 1
   iconUrl: https://blogs.vmware.com/wp-content/uploads/2022/02/tap.png
   tags:
