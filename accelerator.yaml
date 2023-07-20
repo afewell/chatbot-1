@@ -4,15 +4,6 @@ accelerator:
   iconUrl: https://blogs.vmware.com/wp-content/uploads/2022/02/tap.png
   tags:
     - qabot
-    - chatbot
-    - llamaindex
-    - langchain
-    - openai
-    - gradio
-    - "retrieval augmented generation"
-    - vmware
-    - tanzu
-    - "tanzu application platform"
 # Place this after the 'tags' section from the previous step
   options:
     - name: gitRepository
