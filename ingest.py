@@ -15,7 +15,7 @@ from llama_index import (
 logging.basicConfig(stream=sys.stdout, level=logging.DEBUG)
 logging.getLogger().addHandler(logging.StreamHandler(stream=sys.stdout))
 
-openai.api_key = 'ENTER_YOUR_OPENAI_API_KEY'
+openai.api_key = os.environ.get('OPENAI_API_KEY')
 
 
 def construct_index():
